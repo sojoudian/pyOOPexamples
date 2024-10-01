@@ -14,3 +14,7 @@ print(student1)
 
 # Using str() on the student object
 print(str(student1))
+
+# • The __str__() method returns a string representation of the object.
+# •	When you call print(student1) or str(student1), Python uses the __str__() method to convert the object into a readable string format.
+# •	In this example, __str__() returns a formatted string that includes the student’s name and age.
